@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Dental Sonrisas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a class="nav-link" href="https://google.com" target="_blank"><i class="fab fa-google"></i></a>
+        <a class="nav-link" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="nav-link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-success text-white text-center py-5 mt-5">
+    <h1 class="titulo-header">CLÍNICA DENTAL SONRISAS</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success mt-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html"><i class="fas fa-users"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html"><i class="fas fa-tooth"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tratamientos.html"><i class="fas fa-stethoscope"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html"><i class="fas fa-phone-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- Sección de bienvenida -->
+<section class="seccion-bienvenida">
+  <div class="container">
+    <div class="texto-bienvenida">
+      <h2 class="titulo-bienvenida">Bienvenido a Clínica Dental Sonrisas</h2>
+      <p class="descripcion-bienvenida">
+        Nos especializamos en el cuidado dental para tu salud y bienestar. Tu sonrisa es nuestra prioridad.
+      </p>
+      <a href="#" class="btn btn-success btn-lg">Agenda tu cita</a>
+    </div>
+  </div>
+  <!-- Imagen de bienvenida -->
+  <div class="imagen-bienvenida">
+    <img src="image/dental1.jpg" alt="Bienvenida" class="img-fluid">
+  </div>
+</section>
+
+   <!-- Nuestros Servicios -->
+   <section class="bg-light py-5" id="servicios">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros Servicios</h2>
+      <p class="text-center mb-5">En nuestra clínica ofrecemos una amplia gama de tratamientos dentales para todos los miembros de la familia.</p>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card servicio-card">
+            <img src="image/tr1.jpg" class="card-img-top" alt="Servicio 1">
+            <div class="card-body">
+              <h5 class="card-title">Ortodoncia</h5>
+              <p class="card-text">Tratamientos para alinear tus dientes y mejorar tu sonrisa.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card servicio-card">
+            <img src="image/dent2.jpg" class="card-img-top" alt="Servicio 2">
+            <div class="card-body">
+              <h5 class="card-title">Implantes Dentales</h5>
+              <p class="card-text">Soluciones efectivas para reemplazar dientes perdidos.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card servicio-card">
+            <img src="image/dent3.jpg" class="card-img-top" alt="Servicio 3">
+            <div class="card-body">
+              <h5 class="card-title">Blanqueamiento Dental</h5>
+              <p class="card-text">Recupera la blancura natural de tus dientes.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card servicio-card">
+            <img src="image/dent4.jpg" class="card-img-top" alt="Servicio 4">
+            <div class="card-body">
+              <h5 class="card-title">Limpieza Dental</h5>
+              <p class="card-text">Mantén tu salud bucal con nuestras limpiezas periódicas.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="py-5 bg-white text-center" id="nosotros">
+    <div class="container">
+      <h2 class="mb-4">Conoce Nuestra Clínica</h2>
+      <div class="ratio ratio-16x9">
+        <iframe src="image/vid.mp4" title="Video Promocional" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tratamientos -->
+  <section class="bg-light py-5" id="tratamientos">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros Tratamientos</h2>
+      <p class="text-center mb-5">Ofrecemos tratamientos especializados para mejorar la salud bucal de todos nuestros pacientes, adaptados a tus necesidades.</p>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-trata">
+            <img src="image/tr1.jpg" class="card-img-top" alt="Tratamiento 1">
+            <div class="card-body">
+              <h5 class="card-title">Endodoncia (Tratamiento de Conductos)</h5>
+              <p class="card-text">Este tratamiento se realiza para salvar un diente que está gravemente dañado o infectado, eliminando la pulpa dental y sellando el conducto radicular.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-trata">
+            <img src="image/tr2.jpg" class="card-img-top" alt="Tratamiento 2">
+            <div class="card-body">
+              <h5 class="card-title">Tratamiento de Encías</h5>
+              <p class="card-text">Nuestro tratamiento para las encías aborda enfermedades periodontales, eliminando infecciones y promoviendo la salud de los tejidos blandos de la boca.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-trata">
+            <img src="image/tr3.jpg" class="card-img-top" alt="Tratamiento 3">
+            <div class="card-body">
+              <h5 class="card-title">Coronas Dentales</h5>
+              <p class="card-text">Las coronas dentales se colocan sobre dientes dañados o debilitados, restaurando su función y apariencia para una sonrisa más saludable.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-trata">
+            <img src="image/tr4.jpg" class="card-img-top" alt="Tratamiento 4">
+            <div class="card-body">
+              <h5 class="card-title">Cirugía Oral</h5>
+              <p class="card-text">Realizamos procedimientos quirúrgicos para extraer dientes impactados, realizar injertos óseos o tratar otras afecciones orales complejas.</p>
+              <a href="#" class="btn btn-success">Más información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contacto -->
+  <section class="bg-light py-5" id="contacto">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="image/contact.jpg" class="img-fluid rounded" alt="Contacto"/>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre"/>
+            </div>
+            <div class="mb-3">
+              <label for="movil" class="form-label">Teléfono</label>
+              <input type="tel" class="form-control" id="movil" placeholder="Ingresa tu número móvil"/>
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo"/>
+            </div>
+            <div class="mb-3">
+              <label for="comentarios" class="form-label">Comentarios</label>
+              <textarea class="form-control" id="comentarios" rows="3" placeholder="Escribe tus comentarios"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Ariana Amasifuen slee</p>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
